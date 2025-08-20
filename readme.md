@@ -10,9 +10,6 @@
     <a rel="VERSION" href="https://github.com/PoloNX/AtmoPackUpdater">
         <img src="https://img.shields.io/static/v1?label=version&message=2.0.3&labelColor=111111&color=06f&style=for-the-badge" alt="Version">
     </a>
-    <a rel="BUILD" href="https://github.com/PoloNX/AtmoPackUpdater/actions">
-        <img src="https://img.shields.io/github/actions/workflow/status/PoloNX/AtmoPackUpdater/c-cpp.yml?branch=master &labelColor=111111&color=06f&style=for-the-badge" alt=Build>
-    </a>
 </p>
 
 ---
