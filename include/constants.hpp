@@ -52,5 +52,6 @@ const std::string SWITCH_PATH =           "/switch/";
 const std::string ROOT =                  "/";
 
 //URL for the JSON file
-const std::string NXLINKS_URL =           "https://codeberg.org/Zoria/AtmoPack-Vanilla/raw/commit/622abc8703649e876558e7676eb9384d4f326efa/download/nx-links-new.json";
+const std::string NXLINKS_URL =           "https://raw.githubusercontent.com/THZoria/nx-links/master/nx-links-new.json";
 const std::string APP_URL =               "https://github.com/Zoria/AtmoPackUpdater/releases/latest/download/AtmoPackUpdater.nro";
+
