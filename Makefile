@@ -21,8 +21,8 @@ RESOURCES	:=	resources
 DATA		:=	data
 INCLUDES	:=	include /lib/borealis/library/include/borealis/extern/nlohmann include/daybreak
 APP_TITLE	:=	AtmoPackUpdater
-APP_AUTHOR	:=	PoloNX
-APP_VERSION :=  2.0.2
+APP_AUTHOR	:=	PoloNX & Zoria
+APP_VERSION :=  2.0.3
 TARGET		:=	$(notdir $(CURDIR))
 
 ROMFS				:=	resources
@@ -218,3 +218,4 @@ $(OFILES_SRC)	: $(HFILES_BIN)
 #---------------------------------------------------------------------------------------
 endif
 #---------------------------------------------------------------------------------------
+
