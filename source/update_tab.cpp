@@ -202,15 +202,15 @@ void UpdateTab::createList(contentType type) {
                     }
                     case contentType::sigpatches:
                         doneMsg += ("\n" + "menu/update/apply_patch"_i18n);
-                        stagedFrame->addStage(new ConfirmPage(stagedFrame, doneMsg, true, true, util::isErista()));
+                        stagedFrame->addStage(new ConfirmPage(stagedFrame, doneMsg, true, true, /*was util::isErista()*/ true));
                         break;
                     case contentType::ams_cfw:
                         doneMsg += ("\n" + "menu/update/apply_cfw"_i18n);
-                        stagedFrame->addStage(new ConfirmPage(stagedFrame, doneMsg, true, true, util::isErista()));
+                        stagedFrame->addStage(new ConfirmPage(stagedFrame, doneMsg, true, true, /*was util::isErista()*/ true));
                         break;    
                     case contentType::app:
                         doneMsg += ("\n" + "menu/update/apply_app"_i18n);
-                        stagedFrame->addStage(new ConfirmPage(stagedFrame, doneMsg, true, false, util::isErista(), true));
+                        stagedFrame->addStage(new ConfirmPage(stagedFrame, doneMsg, true, false, /*reboot gate*/ true, true));
                         break;
                     case contentType::homebrew:
                         doneMsg += ("\n" + "menu/update/apply_homebrew"_i18n);
@@ -237,4 +237,5 @@ void UpdateTab::displayNotFound()
         true);
     notFound->setHorizontalAlign(NVG_ALIGN_CENTER);
     this->addView(notFound);
+
 }
