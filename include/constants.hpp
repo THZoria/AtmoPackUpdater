@@ -23,7 +23,7 @@ struct homebrew_label {
 const std::vector<std::string> contentSettings = {"dns", "theme", "clear", "reboot", "auto-update"};
 
 
-const std::string APP_VER = "2.0.1"; 
+const std::string APP_VER = "2.0.3"; 
 constexpr std::string_view contentTypeNames[5]{"ams_cfw", "app", "firmwares", "sigpatches", "homebrew"};
 
 //app path
@@ -54,4 +54,5 @@ const std::string ROOT =                  "/";
 //URL for the JSON file
 const std::string NXLINKS_URL =           "https://raw.githubusercontent.com/THZoria/nx-links/master/nx-links-new.json";
 const std::string APP_URL =               "https://github.com/Zoria/AtmoPackUpdater/releases/latest/download/AtmoPackUpdater.nro";
+
 
