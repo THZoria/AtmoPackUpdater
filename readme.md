@@ -45,7 +45,7 @@
 
 #### *Linux :*  
 ```console
-git clone --recursive https://github.com/PoloNX/AtmoPackUpdater  
+git clone --recursive https://github.com/THZoria/AtmoPackUpdater  
 cd AtmoPackUpdater  
 sudo pacman -S switch-curl switch-zlib switch-glfw switch-mesa switch-glm switch-mbedtls switch-glad
 ./make_nro.sh
@@ -53,7 +53,7 @@ sudo pacman -S switch-curl switch-zlib switch-glfw switch-mesa switch-glm switch
 
 #### *Window :* 
 ```console 
-git clone --recursive https://github.com/PoloNX/AtmoPackUpdater  
+git clone --recursive https://github.com/THZoria/AtmoPackUpdater  
 cd AtmoPackUpdater  
 pacman -S switch-curl switch-zlib switch-glfw switch-mesa switch-glm switch-mbedtls switch-glad
 ./make_nro.bat
@@ -64,7 +64,7 @@ pacman -S switch-curl switch-zlib switch-glfw switch-mesa switch-glm switch-mbed
 #### *Linux :*  
 ```console
 sudo pacman -S switch-curl switch-zlib switch-glfw switch-mesa switch-glm switch-mbedtls switch-glad
-git clone --recursive https://github.com/PoloNX/AtmoPackUpdater  
+git clone --recursive https://github.com/THZoria/AtmoPackUpdater  
 cd AtmoPackUpdater/amssu-rcm  
 make  
 cd ..  
@@ -79,7 +79,7 @@ make
 #### *Window :* 
 ```console
 pacman -S switch-curl switch-zlib switch-glfw switch-mesa switch-glm switch-mbedtls switch-glad
-git clone --recursive https://github.com/PoloNX/AtmoPackUpdater  
+git clone --recursive https://github.com/THZoria/AtmoPackUpdater  
 cd AtmoPackUpdater/amssu-rcm
 make
 cd ..
